@@ -1,0 +1,31 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  color: chartreuse;
+  font-family: "space mono", monospace;
+  background-image: url("../Images/hackerman.gif");
+  background-repeat: repeat;
+  background-size: 100%;
+  font-size: 4.5vmin;
+}
+#detail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3.5vmin;
+}
+.blink {
+  animation: blinker 2500ms step-start infinite;
+}
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+h4 {
+  padding: 12px;
+}
