@@ -17,6 +17,7 @@ body {
   justify-content: center;
   align-items: center;
   font-size: 3.5vmin;
+  width: 90%;
 }
 .blink {
   animation: blinker 2500ms step-start infinite;
